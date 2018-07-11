@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <meta charset="utf-8">
+    <title>Auction Service</title>
+  </head>
+  <body>
+    <h1>Auction Service</h1>
+    <h3>Highest Bidder</h3>
+     <h3 id=displayBidderName></h3>
+     <h3 id="displayBidAmount"></h3>
+    <hr>
+    <h2>Painting for Auction</h2>
+    <img src="https://picsum.photos/200/300/?random" alt="Auction Painting">
+    <div class="container">
+    Bidder Name <input type="text" id="bidderName"><br>
+      Bid Amount $ <input type="number" id="bidAmount">
+    <button onclick="placeBid()">Bid</button>
+    <button onclick="renegBid()">Reneg</button>
+<hr>
+    Alt Bidder Name <input type="text" id="bidderName2"><br>
+      Alt Bid Amount $ <input type="number2" id="bidAmount2">
+    <button onclick="placeBid2()">Bid</button>
+    <button onclick="renegBid2()">Reneg</button>
+  </div>
+  </body>
+  <script src="casino.js">
+  </script>
+</html>
